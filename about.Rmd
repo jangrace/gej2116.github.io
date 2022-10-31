@@ -1,5 +1,5 @@
 ---
-title: "About me"
+title: "About Me"
 output: 
   html_document:
     toc: true
@@ -16,7 +16,7 @@ output:
 Mailman Public Health Scholar Scholarship
   
 * **B.A., Neurolinguistics**, 
-*University of Michigan, Ann Arbor (2017)*  
+*University of Michigan, Ann Arbor (2014)*  
 Angell Scholar, LSA Scholarship
 
 ## Experience
@@ -36,5 +36,4 @@ Angell Scholar, LSA Scholarship
 * Research Assistant, The Gertrude H. Sergievsky Center  
 *Columbia University Medical Center, Infectious Diseases*  
 10/2018 - 05/2019
-
 

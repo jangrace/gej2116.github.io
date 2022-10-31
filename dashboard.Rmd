@@ -9,24 +9,16 @@ output:
 
 ```{r setup, include=FALSE}
 library(flexdashboard)
-library(p8105.datasets)
 library(tidyverse)
+library(p8105.datasets)
 library(plotly)
 ```
 
 ```{r}
-data("nyc_airbnb")
+data("rest_inspec")
 
-nyc_airbnb =
-  nyc_airbnb %>% 
-  mutate(rating = review_scores_location/2) %>% 
-  select(neighbourhood_group, neighbourhood, rating, price, room_type, lat, long) %>% 
-  filter(
-    neighbourhood_group == "Manhattan",
-    price %in% 100:500,
-    room_type == "Entire home/apt"
-  ) %>% 
-  drop_na(rating)
+rest_inspec =
+  rest_df
 ```
 
 Column {data-width=650}

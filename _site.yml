@@ -1,16 +1,14 @@
-name: "Yay internet!"
+name: "Site yml"
 output_dir: "."
 navbar:
   title: "Home"
   right:
-    - text: "About"
+    - text: "About Me"
       href: about.html
-    - text: "Plotly"
-      href: plotly.html
-    - text: "Dashboard"
+    - text: "Flexboard"
       href: dashboard.html
     - icon: fa-envelope fa-lg
-      href: mailto:<jangrace009@gmail.com>
+      href: mailto:<gej2116@cumc.columbia.com>
     - icon: fa-github fa-lg
       href: http://github.com/jangrace/
 output:
